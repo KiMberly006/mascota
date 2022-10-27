@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tienda de Mascotas</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap"rel="stylesheet">
+    <link rel="stylesheet"href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css">
+    <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+    <nav class="nav">
+    <div class="nav__center container">
+        <div class="nav__logo">
+            <h1>TOP<span>TECH</span></h1>
+        </div>
+        <ul class="nav__list">
+                <span><i class="bx bxs-dog"></i></span>
+                <span><i class="bx bxs-cat"></i></span>
+                    <div class="carrito__icon">
+                    <i class="bx bx-cart"></i>
+                <span class="item__total">0</span>
+            </div>
+        </ul>
+    </div>
+</nav>
+    <main class="container detalles" id="detalles">
+        <article class="detalle-grid">
+            <img src="img/perrocomida.jpg" alt="" class="img-fluid">
+                <div class="detalles-content">
+                    <h3>Proplan Adulto Razas Medianas</h3>
+                    <div class="rating">
+                        <span><i class="bx bxs-star"></i></span>
+                        <span><i class="bx bxs-star"></i></span>
+                        <span><i class="bx bxs-star"></i></span>
+                        <span><i class="bx bxs-star"></i></span>
+                        <span><i class="bx bx-star"></i></span>
+                    </div>
+                        <p class="price"><b>Precio: </b> $0</p>
+                        <p class="description">
+                            <b>Descripcion: </b> 
+                            <span>Fortalecer el sistema inmune y digestivo, principalmente a través de la incorporación de spirulina en su fórmula, cuya efectividad ha sido científicamente probada al ayudar a mantener las defensas naturales del sistema inmunológico y ayudar a optimizar la absorción de nutrientes clave, fortaleciendo y estabilizando la microflora intestinal. Ofrece, a través de sus sabrosas croquetas, un contenido rico en proteínas (26%) y grasas (15%), utilizando como ingrediente principal carne fresca de pollo, que ayuda a los perros a mantener la masa corporal magra y músculos fuertes para garantizar una vida plena y saludable a tu perro.    
+                            </span>
+                        </p>
+                        <p class="description">
+                            <span>Guía de alimentación para perros adultos saco alimento seco (g/día):
+                            </span>
+
+                        <table>
+                            <tr>
+                                <th>Peso del perro</th>
+                                <th>Cantidad de alimento</th>
+                            </tr>
+                                <tr>
+                                    <td>10 kg a 25 kg</td>
+                                    <td>25 kg a 35 kg</td>
+                                </tr>
+                            <tr>
+                                <td>160g - 300g</td>
+                                <td>300g - 380g</td>
+                            </tr>
+                                <tr>
+                        <table>
+                        </p>
+                    <div class="bottom">
+                        <div class="btn__group">
+                        <a href="" class="btn addToCart">Añadir carrito</a>
+                    </div>
+                </div>
+            </div>
+        </article> 
+    </main>
+    
+<section class="carrito__overlay">
+    <div class="carrito">
+            <span class="close__carrito"><i class="bx bx-x"></i></span>
+                <h1>Su Carrito</h1>
+
+    <div class="carrito__center">
+        <div class="carrito__item">
+            <img src="#" alt="Producto">
+            <div>
+                <h3>Nombre</h3>
+                <p class="price">$0</p>
+            </div>
+            <div>
+                <span><i class="bx bxs-up-arrow"></i></span>
+                <p>1</p>
+                <span><i class="bx bxs-down-arrow"></i></span>
+            </div>
+            <div>
+                <span class="remove__item"><i class="bx bx-trash"></i></span>
+            </div>
+        </div>
+    </div>
+        <div class="carrito__footer">
+            <h3>Total: $ <span class="carrito__total">0</span></h3>
+            <button class="clear__carrito btn">remover carrito</button>
+        </div>
+    </div>
+</section>
+
+    <script src="https://unpkg.com/boxicons@latest/dist/boxicons.js"></script>
+    <script src="script.js"></script>
+</body>    
+</html>
